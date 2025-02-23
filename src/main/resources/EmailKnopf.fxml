@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Button id="Knopf" fx:id="Knopf" maxHeight="30.0" maxWidth="1040.0" minHeight="30.0" minWidth="1040.0" mnemonicParsing="false" onMouseClicked="#KnopfGedrueckt" onMouseEntered="#MausRein" onMouseExited="#MausRaus" prefHeight="30.0" prefWidth="1040.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EmailKnopf">
+   <graphic>
+      <AnchorPane maxHeight="30.0" maxWidth="1040.0" minHeight="30.0" minWidth="1040.0" prefHeight="30.0" prefWidth="1040.0">
+         <Label id="Absender" fx:id="Absender" layoutX="14.0" maxHeight="30.0" maxWidth="280.0" minHeight="30.0" minWidth="280.0" prefHeight="30.0" prefWidth="280.0" text="Absender" />
+         <Label id="Betreff" fx:id="Betreff" layoutX="335.0" maxHeight="30.0" maxWidth="404.0" minHeight="30.0" minWidth="280.0" prefHeight="30.0" prefWidth="383.0" text="Betreff" />
+         <Label id="Datum" fx:id="Datum" layoutX="752.0" maxHeight="30.0" maxWidth="280.0" minHeight="30.0" minWidth="211.0" prefHeight="30.0" prefWidth="211.0" text="Datum" />
+      </AnchorPane>
+   </graphic>
+</Button>

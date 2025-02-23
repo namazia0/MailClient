@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mailSpeichernID" fx:id="mailSpeichernID" maxHeight="685.0" maxWidth="1080.0" minHeight="685.0" minWidth="1060.0" prefHeight="685.0" prefWidth="1060.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EmailSchreiben">
+    <children>
+        <TextField id="Empfänger" fx:id="Empfänger" layoutX="6.0" layoutY="1.0" prefHeight="25.0" prefWidth="1061.0" promptText="Empfänger" />
+        <TextField id="Betreff" fx:id="Betreff" layoutX="6.0" layoutY="37.0" prefHeight="25.0" prefWidth="1061.0" promptText="Betreff" />
+        <TextArea id="Mail" fx:id="Mail" layoutX="6.0" layoutY="80.0" prefHeight="526.0" prefWidth="1061.0" />
+        <Button id="NachrichtSendenID" fx:id="NachrichtSendenID" layoutX="840.0" layoutY="611.0" mnemonicParsing="false" onMouseClicked="#NachrichtSendenKnopfGedrueckt" prefHeight="64.0" prefWidth="226.0" text="Nachricht Senden" textAlignment="CENTER" />
+      <Label id="SendenFeedback" fx:id="SendenFeedback" layoutX="368.0" layoutY="633.0" prefHeight="26.0" prefWidth="367.0" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button id="speichernID" fx:id="speichernID" layoutX="6.0" layoutY="611.0" mnemonicParsing="false" onMouseClicked="#mailSpeichern" prefHeight="64.0" prefWidth="180.0" text="Nachricht speichern" />
+      <Label id="entwuerfeLabel" fx:id="entwuerfeLabel" layoutX="368.0" layoutY="633.0" prefHeight="20.0" prefWidth="337.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

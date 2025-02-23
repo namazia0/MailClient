@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="685.0" maxWidth="1083.0" minHeight="685.0" minWidth="1069.0" prefHeight="685.0" prefWidth="1083.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MailAnzeige">
+    <children>
+        <Label id="Absender" fx:id="Absender" layoutX="20.0" layoutY="9.0" prefHeight="25.0" prefWidth="1025.0" text="Absender">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+        <Label id="Betreff1" fx:id="Betreff1" layoutX="20.0" layoutY="34.0" prefHeight="25.0" prefWidth="527.0" text="Betreff" />
+        <Button id="mailLöschenID" fx:id="Loeschen" layoutX="933.0" layoutY="634.0" mnemonicParsing="false" onMouseClicked="#LoeschenGedrueckt" prefHeight="45.0" prefWidth="141.0" text="Löschen" />
+      <ScrollPane id="Inhalt" fx:id="Inhalt" layoutX="20.0" layoutY="68.0" prefHeight="566.0" prefWidth="1054.0">
+         <content>
+            <Label id="Inhaltslabel" fx:id="Inhaltslabel" text="Inhaltslabel" />
+         </content>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></ScrollPane>
+      <Label id="datum" fx:id="datum" layoutX="857.0" layoutY="22.0" prefHeight="25.0" prefWidth="188.0" text="datum" textAlignment="LEFT" />
+      <Button id="ArchivLoeschenID" fx:id="Archiv" layoutX="783.0" layoutY="634.0" mnemonicParsing="false" onMouseClicked="#archivGedrueckt" prefHeight="45.0" prefWidth="141.0" text="Archivieren" />
+      <Label id="LöschenFeedback" fx:id="LöschenFeedback" layoutX="353.0" layoutY="648.0" prefHeight="17.0" prefWidth="388.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label id="archivFeedback" fx:id="archivFeedback" layoutX="353.0" layoutY="648.0" prefHeight="17.0" prefWidth="388.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label id="foreverDeleteID" fx:id="foreverDeleteID" layoutX="353.0" layoutY="648.0" prefHeight="17.0" prefWidth="388.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    </children>
+</AnchorPane>
