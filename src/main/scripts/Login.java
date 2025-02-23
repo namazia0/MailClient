@@ -265,7 +265,7 @@ public class Login extends Application {
     /***
      * Hintergrundbild ändern mithilfe ImageView. In dem Ordner "ressources" befinden sich die Bilder.
      */
-    Image myImage = new Image(getClass().getResourceAsStream("bild.gif"));
+    Image myImage = new Image(getClass().getResourceAsStream("login-page.gif"));
     public void PartyModeLogin(MouseEvent mouseEvent) {
         picture.setImage(myImage);
     }

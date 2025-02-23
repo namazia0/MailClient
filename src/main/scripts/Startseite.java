@@ -373,7 +373,7 @@ public class Startseite {
     /***
      * Hintergrundbild ändern mithilfe ImageView
      */
-    Image myImage3 = new Image(getClass().getResourceAsStream("bild.gif"));
+    Image myImage3 = new Image(getClass().getResourceAsStream("login-page.gif"));
     public void PartyMode(MouseEvent mouseEvent) {
         image2.setImage(myImage3);
     }
